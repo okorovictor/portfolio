@@ -50,15 +50,52 @@ a {
 a:hover {
     font-size: larger;
 }
-.down {
+.card {
+    margin-top: 20px;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    box-shadow: 2px 2px 12px #222222;
+}
+.card-head {
+    height: 80%;
+    background-image: url('https://images.unsplash.com/photo-1608186336271-53313eeaf864?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FtZXJhJTIwbGVuc3xlbnwwfHwwfHx8MA%3D%3D');
+    background-position: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 15px;
+    align-items: center;
+}
+.product-img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+footer {
     background-color: #102034;
     color: rgb(222, 237, 255);
     height: 40px;
     width: 100%;
-    position: absolute;
+    position: fixed;
     left: 0;
     bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* footer {
+    position: fixed;
+} */
